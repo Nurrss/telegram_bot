@@ -1,0 +1,13 @@
+[SYSTEM]
+{system_prompt}   # replaced by content of .claude/system_prompt.txt
+
+[CONTEXT]
+{context}        # replaced by .claude/context.md
+
+[TASK]
+{task}           # replaced by .claude/task.txt contents for this run
+
+[INSTRUCTIONS]
+1) Produce only the requested outputs.
+2) If producing code, return only code blocks.
+3) If unsure about missing data, ask a single concise clarifying question.

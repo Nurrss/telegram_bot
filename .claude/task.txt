@@ -1,0 +1,58 @@
+# Task 001 — Base Project Setup
+
+## Goal
+Set up the base structure for the Telegram bot project that will integrate with an AI system (Claude).
+
+## Instructions
+
+1. Create the following folder structure inside the repository:
+telegram_bot/
+│
+├── bot/ # Handles Telegram interaction (use aiogram or telebot)
+│ ├── init.py
+│ └── main.py # Entry point for the bot
+│
+├── ai/ # AI integration (Claude or other models)
+│ ├── init.py
+│ └── interface.py # Stub class for future AI connection
+│
+├── core/ # Planning and task management logic
+│ ├── init.py
+│ └── planner.py
+│
+├── data/ # Local database or data files
+│ ├── init.py
+│ └── storage.py
+│
+├── utils/ # Helper functions (logging, config)
+│ ├── init.py
+│ └── logger.py
+│
+├── requirements.txt # Add base dependencies (aiogram, openai, etc.)
+└── README.md # Basic project description
+
+
+2. In `bot/main.py`:
+   - Create a minimal Telegram bot using **aiogram**.
+   - Add one command: `/start` → reply "Hello, I'm your AI planner bot!"
+   - Include environment variable loading from `.env` (use `python-dotenv`).
+
+3. Update `requirements.txt`:
+aiogram
+python-dotenv
+openai
+(Claude integration will be added later.)
+
+4. Update `README.md` with:
+- Short description
+- How to run the bot locally
+
+5. Run syntax validation (`python -m py_compile bot/main.py`).
+6. Auto-commit and push:
+- branch: `main`
+- commit message: `feat: initialize base bot structure (Claude auto)`
+
+## Notes
+- Do not implement AI logic yet.
+- Ensure that the bot runs without errors after `/start`.
+- Keep the code clean and simple.
