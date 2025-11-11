@@ -1,58 +1,77 @@
-# Task 001 — Base Project Setup
+Task 006 + Complete Project Roadmap
+Task 006 Created! ✅
+I've created Task 006 — Real Claude API Integration for you in English.
 
-## Goal
-Set up the base structure for the Telegram bot project that will integrate with an AI system (Claude).
+This task covers:
 
-## Instructions
+Connecting to real Claude API
 
-1. Create the following folder structure inside the repository:
-telegram_bot/
-│
-├── bot/ # Handles Telegram interaction (use aiogram or telebot)
-│ ├── init.py
-│ └── main.py # Entry point for the bot
-│
-├── ai/ # AI integration (Claude or other models)
-│ ├── init.py
-│ └── interface.py # Stub class for future AI connection
-│
-├── core/ # Planning and task management logic
-│ ├── init.py
-│ └── planner.py
-│
-├── data/ # Local database or data files
-│ ├── init.py
-│ └── storage.py
-│
-├── utils/ # Helper functions (logging, config)
-│ ├── init.py
-│ └── logger.py
-│
-├── requirements.txt # Add base dependencies (aiogram, openai, etc.)
-└── README.md # Basic project description
+Replacing Fake AI seamlessly
 
+Cost tracking and monitoring
 
-2. In `bot/main.py`:
-   - Create a minimal Telegram bot using **aiogram**.
-   - Add one command: `/start` → reply "Hello, I'm your AI planner bot!"
-   - Include environment variable loading from `.env` (use `python-dotenv`).
+Error handling and retries
 
-3. Update `requirements.txt`:
-aiogram
-python-dotenv
-openai
-(Claude integration will be added later.)
+Production deployment
 
-4. Update `README.md` with:
-- Short description
-- How to run the bot locally
+Complete Project Roadmap 📊
+Here's the full overview of all remaining tasks:
 
-5. Run syntax validation (`python -m py_compile bot/main.py`).
-6. Auto-commit and push:
-- branch: `main`
-- commit message: `feat: initialize base bot structure (Claude auto)`
+Completed:
+✅ Task 001: Base Project Setup (Done!)
 
-## Notes
-- Do not implement AI logic yet.
-- Ensure that the bot runs without errors after `/start`.
-- Keep the code clean and simple.
+Remaining Core Tasks:
+🔄 Task 003: FSM User Onboarding ← YOU START HERE
+
+Time: 6-8 hours
+
+Priority: High
+
+Status: Ready to implement
+
+⏳ Task 004: Fake AI Implementation
+
+Time: 8-10 hours
+
+Priority: High
+
+Depends on: Task 003
+
+⏳ Task 005: Task Reminders & Progress Tracking
+
+Time: 8-12 hours
+
+Priority: High
+
+Depends on: Task 004
+
+⏳ Task 006: Claude API Integration
+
+Time: 6-8 hours
+
+Priority: High
+
+Depends on: Task 005
+
+Summary Statistics
+Total Core Tasks: 6 tasks
+
+✅ Completed: 1 task (16.7%)
+
+⏳ Remaining: 5 tasks (83.3%)
+
+Time to MVP:
+
+Estimated: 50-70 hours total
+
+Remaining: 42-62 hours
+
+Calendar time: 6-8 weeks (working evenings)
+
+Current Status:
+
+📍 You are at: Task 003 (FSM Onboarding)
+
+📋 You have completed: Task 001
+
+🎯 Tasks until MVP: 5 more tasks
